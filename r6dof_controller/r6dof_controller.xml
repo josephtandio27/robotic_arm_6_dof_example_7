@@ -1,0 +1,16 @@
+<library path="r6dof_controller">
+  <class name="r6dof_controller/RobotSystem"
+         type="r6dof_controller::RobotSystem"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Robot hardware plugin for 6 dof robot tutorial.
+    </description>
+  </class>
+  <class name="r6dof_controller/RobotController"
+         type="r6dof_controller::RobotController"
+         base_class_type="controller_interface::ControllerInterface">
+    <description>
+      Robot controller plugin for 6 dof robot tutorial.
+    </description>
+  </class>
+</library>
